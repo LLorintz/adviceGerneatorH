@@ -74,3 +74,20 @@ h2{
 .dice:hover{
     box-shadow: 0 0 40px 0 var(--Neon-Green);
 }
+
+
+@media (max-width:800px) {
+    .dividerMobile{
+        display: block;
+    }
+
+    .dividerDesktop{
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+        .card{
+            width: 375px;
+        }
+}
